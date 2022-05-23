@@ -384,8 +384,8 @@ margin-top:30px;
    display:flex;
    flex-direction:column;
    align-items:center;
-   background-color:brown;
-   background:url("Notify.jpg") no-repeat 100% 100%;
+  
+   background:url("/Assets/Notify.jpg") no-repeat 100% 100%;
    background-size:100% 100%;
    }
    
@@ -663,7 +663,6 @@ margin:20px 0 0 -30px;
   .input-box{
   width:100%;
   margin:110px 0 0 0;
-  border:1px solid brown;
   }
   
   .input-content{
