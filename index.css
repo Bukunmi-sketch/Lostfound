@@ -51,8 +51,6 @@ animation: spin 0.3s linear 1s infinite;
  width:100%;
  }
  
- 
- 
  /*
  Section (1)
  */
@@ -62,7 +60,7 @@ header{
 margin:0;
 top:0;
 border:1px solid black;
-height: 700px;
+height: 650px;
 text-align:center;
 padding:0;
 background: url('Assets/landingpage.jpg') no-repeat 100% 100%;
@@ -78,7 +76,7 @@ height:300px;
 .container p{
 margin-top:30px;
         text-align: center;
-        font-size: 7vmin;
+        font-size: 1em;
         color: transparent;
         color:white;
         /*font-family: 'Rammetto One', cursive;*/
@@ -103,7 +101,7 @@ margin-top:30px;
   font-weight:lighter;
   font-family:"ubuntu",sans-serif;
   margin-top:20px;
-  font-size:0.8em;
+  font-size:1.4em;
   letter-spacing:5px;
   }
    
@@ -134,7 +132,7 @@ margin-top:30px;
   
   .starting h3{
   margin-top:25px;
-  border:1px dashed #cecece;
+  border:3px dashed #cecece;
   color:green;
   font-family:'ubuntu',sans-serif;
   border-radius:10px;
@@ -144,7 +142,7 @@ margin-top:30px;
   
   .starting p{
   margin:25px 0 0 5px;
-  font-size:1.1em;
+  font-size:0.9em;
   }
   
   
@@ -526,7 +524,7 @@ filter: brightness(30%);*/
   }
   
   
-@media screen and (min-width:500px) and (max-width:1620px){
+@media screen and (min-width:500px){
   
   #loader{
   margin:600px 0 0 500px;
@@ -545,7 +543,7 @@ filter: brightness(30%);*/
   .container p{
   margin-top:30px;
   text-align: center;
-  font-size:1.4em;
+  font-size:2em;
   font-family:"ubuntu",sans-serif;
   }
   
@@ -557,6 +555,7 @@ margin:20px 0 0 -30px;
   
   .starting{
  margin:200px 0 0 0;
+ font-size: 1.3em;
   
   }
   
